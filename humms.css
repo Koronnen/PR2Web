@@ -1,0 +1,287 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: syhumms-ui, -apple-syhumms, BlinkMacSyhummsFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+header {
+    display: flex;
+    width: auto;
+    height: 67px;
+    background-color: rgb(52, 63, 141);
+    justify-content: space-between;
+}
+.title {
+    display: flex;
+    align-items: center;
+    margin: 5px;
+    width: 187px;
+}
+.title img {
+    height: 60px;
+    margin-left: 17px;
+}
+.right_container {
+    display: flex;
+}
+.hdr_nav_container {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 20pc;
+    color: white;
+}
+.hdr_nav_container span:hover {
+    border-bottom: 2px solid white;
+    transition: 0.1s;
+}
+.hdr_nav_container a {
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+
+}
+.search_container {
+    background-color: none;
+    display: block;
+    position: relative;
+    width: 17pc;
+}
+.search_container input {
+    position: absolute;
+    top: 1.2pc;
+    width: 15pc;
+    padding: 7px;
+    border-radius: 3px;
+    border: none;
+}
+/* Image section */
+.strds_container {
+    position: relative;
+    display: block;
+}
+.strds_container img {
+    width: 100%;
+    height: 40pc
+}
+.humms_title {
+    position: absolute;
+    top:10pc;
+    left: 7pc;
+    background-color: none;
+    width: 54pc;
+}
+.humms_title h2 {
+    font-size: 87px;
+    font-stretch: expanded;
+    color: black;
+}
+.humms_description {
+    background-color: none;
+    position: absolute;
+    width: 50pc;
+    right: 7pc;
+    top: 15pc;
+}
+.humms_description {
+    color: black;
+    line-height: 37px;
+    font-size: 27px;
+    height: auto;
+}
+.humms_button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: none;
+    height: 130px;
+}
+.humms_button button {
+    position: relative;
+    width: 15pc;
+    height: 4pc;
+    border: white 7px double;
+    border-radius: 207px;
+    cursor: pointer;
+    font-size: 17px;
+    font-weight: 500;
+    background-color: rgb(52, 63, 141);
+    color: white;
+}
+.humms_button button:hover {
+    box-shadow: 0px 8px 4px 0px rgba(0, 0, 0, 0.644);
+    margin-bottom: 12px;
+    transition: 0.1s
+}
+.humms_button button:active {
+    opacity: 0.7;
+    transition: 1ms;
+}
+.aside1 {
+    display: flex;
+    background-color: none;
+    width: 100%;
+    justify-content: center;
+    justify-content: space-around;
+}
+.download_content {
+    display: flex;
+    width: 100%;
+    height: 11vh;
+    position: relative;
+    margin-bottom: 15px;
+    cursor: pointer;
+}
+.download_curriculum {
+    background-color:  rgb(52, 63, 141);
+    display: flex;
+    width: 300px;
+    height: 67px;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    border-radius: 7px;
+}
+.download_curriculum p {
+    font-size: 17px;
+    font-weight: 500;
+    display: flex;
+    justify-content: space-around;
+    width: 14pc;
+}
+.download_curriculum i {
+    font-size: 20px;
+}
+.download_fees {
+    cursor: pointer;
+    background-color:  #343f8d;
+    display: flex;
+    width: 300px;
+    height: 67px;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    border-radius: 7px;
+}
+.download_fees p {
+    font-size: 17px;
+    font-weight: 500;
+    display: flex;
+    justify-content: space-around;
+    width: 14pc; 
+}
+.last_container {
+    display: flex;
+    justify-content: center;
+    background-color:  #343f8d;
+    text-align: center;
+    height:100%;
+    padding-bottom: 27px;
+}
+.careerpath_container {
+    display: block;
+    color: white;
+}
+.careerpath_container h1 {
+    font-size: 47px;
+    margin-bottom: 17px;
+    margin-top: 3px;
+}
+.careerpath_content {
+    column-count: 4;
+}
+.careerpath_content p {
+    margin-bottom: 10px;
+    font-size: 27px;
+}
+.navbar {
+    overflow: hidden;
+    background-color: #343F8D;
+    z-index: 1;
+}
+
+.NU_ICON {
+    height: 73px;
+    padding: 10px 10px;
+    float: left;
+}
+
+.strand_drpdwn {
+    overflow: hidden;
+    float: left;
+}
+
+.strand_drpdwn .strand_drpdwn_button{
+    font-size: 17px;
+    border:none;
+    background-color: #343F8D;
+    color: white;
+    margin: 0px;
+    padding: 25px 22px;
+    font-weight: bold;
+}
+
+.strand_drpdwn_button:hover{
+    background-color:#28306d;
+}
+
+.strand_drpdwn_content{
+    background-color: #b8b8b8;
+    position: absolute;
+    display: none;
+    z-index: 2;
+    min-width: 107px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: black;
+}
+
+.strand_drpdwn_content a{
+    float: none;
+    padding: 25px 22px;
+    display: block;
+    text-align: left;
+    text-decoration: none;
+    color: black;
+}
+
+.strand_drpdwn:hover .strand_drpdwn_content {
+    display: block;
+}
+
+.strand_drpdwn_content a:hover{
+    background-color: #8a8a8a;
+}
+.navbutton{
+	padding: 25px 22px;
+	background-color: #343F8D;
+	color: white;
+	font-size: 17px;
+	margin: 0px;
+	border: none;
+	font-weight: bold;
+}
+.navbutton:hover{
+	background-color:#28306d;
+}
+.navbutton a{
+	text-decoration: none;
+	color: white;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

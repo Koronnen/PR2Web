@@ -1,0 +1,505 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+header {
+    display: flex;
+    width: auto;
+    height: 67px;
+    background-color: rgb(52, 63, 141);
+    justify-content: space-between;
+}
+.title {
+    display: flex;
+    align-items: center;
+    margin: 5px;
+    width: 187px;
+}
+.title img{
+    height: 60px;
+    margin-left: 17px;
+}
+.right_container {
+    display: flex;
+}
+.hdr_nav_container {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 20pc;
+    color: white;
+}
+.hdr_nav_container span:hover {
+    border-bottom: 2px solid white;
+    transition: 0.1s;
+}
+.hdr_nav_container a {
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+
+}
+.search_container {
+    background-color: none;
+    display: block;
+    position: relative;
+    width: 17pc;
+}
+.search_container input {
+    position: absolute;
+    top: 1.2pc;
+    width: 15pc;
+    padding: 7px;
+    border-radius: 3px;
+    border: none;
+}
+
+
+.NU_front{
+    display: flex;
+}
+.NU_front_img {
+    height: 70vh;
+    width: 100%;
+    position: relative;
+    overflow: hidden;
+}
+.fade {
+    position: absolute;
+    top: 67PX;
+    left: 0;
+    width: 100%;
+    height: 70vh;
+    background: linear-gradient(to top, rgba(0, 0, 0, 0.733), rgba(0, 0, 0, 0));
+}
+.Nu_descri {
+    display: block;
+    position: absolute;
+    text-align: center;
+    background-color: none;
+    top: 20cap;
+    left: 50cap;
+    width: 50pc;
+}
+.Nu_descri img {
+    width: 150px;
+}
+.short_p{
+    font-weight: 600;
+    color: white;
+    font-size: 22px;
+}
+.long_p {
+    font-size: 17px;
+    margin-top: 12px;
+    color: white;
+    line-height: 28px;
+}
+/* mga dropdown mission and vision */
+.M_and_V {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 100%;
+    height: 30vh;
+    background-color: rgb(255, 255, 255);
+
+}
+.mission_container, .Vision_container {
+    display: block;
+    background-color: none;
+    width: 50pc;
+    height: 15pc;
+    margin: 0 10px; 
+}
+.dropbtn {
+    background-color: #444b44cc;
+    color: white;
+    padding: 12px;
+    font-size: 16px;
+    border: none;
+    border-radius: 7px;
+    cursor: pointer;
+    display: block;
+    width: 100%;
+    text-align: center;
+    font-size: 20px;
+
+}
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    width: 50pc;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    transition: max-height 0.5s ease-out;
+    overflow-y: auto;
+    height: 150px;
+}
+
+.dropdown-toggle {
+    display: none;
+}
+.dropdown-toggle:checked + .dropbtn + .dropdown-content {
+    display: block;
+    max-height: 200px;
+}
+
+/* STRANDS */
+
+.strand_container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    justify-content: space-around;
+    width: auto;
+    height: 50vh;
+    background-color: none;
+    position: relative;
+    margin: 0 27px 0 27px;
+}
+
+.pick_strand {
+    display: inline-block;
+    position: absolute;
+    bottom: 30pc;
+}
+
+.theStrands {
+    margin-top: 27px;
+    display: block;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    width: 24pc;
+    padding: 17px;
+    background-color: rgb(52, 63, 141);
+    height: 30pc;
+    border-radius: 17px;
+    cursor: pointer;
+}
+.theStrands img {
+    width: 330px;
+    height: 220px;
+}
+.theStrands a {
+    text-decoration: none;
+}
+.theStrands:hover {
+    box-shadow:  0px 13px 20px 3px rgb(0, 0, 0);
+    transition: 0.1s;
+}
+.theStrands:active {
+    box-shadow: none;
+    background-color: rgb(0, 0, 0);    
+    opacity: 0.7;
+    
+}   
+.strand_description {
+    color: white;
+    line-height: 25px;
+    margin-top: 14px;
+}
+.strand_description p  {
+    margin-top: 7px;
+}
+
+
+.news_container {
+    display: flex;
+    position: relative;
+    flex-direction: row;
+    background-color: gold;
+    margin-top: 27px;
+    width: auto;
+    height: 55vh;
+}
+.news_container h1 {
+    position: absolute;
+    display: block;
+    left: 8pc;
+    top: 2pc;
+}
+
+.slideshow-container {
+    flex: 1;
+    position: relative;
+    top: 2px;
+}
+
+.slide {
+    display: none;
+    width: 70vh;
+    text-align: center;
+}
+
+.slide img {
+    position: absolute;
+    left: 8pc;
+    top: 5pc;
+    max-width: 100%;
+    width: 30pc;
+    height: auto;
+}
+
+.slide p {
+    margin: 0;
+    width: 50vh;
+    position: absolute;
+    left: 40pc;
+    top: 8.5pc;
+}
+
+.prev, .next {
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    width: auto;
+    padding: 16px;
+    color: white;
+    font-weight: bold;
+    font-size: 20px;
+    transition: 0.6s ease;
+    border-radius: 3px 3px 3px 3px;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+.prev:hover, .next:hover {
+    background-color: rgba(0, 0, 0, 0.8);
+}
+
+.prev {
+    left: 2.7pc;
+}
+
+.next {
+    right: 45pc;
+}
+.links_container {
+    display: flex;
+    position: relative;
+    margin-right: 10pc;
+    align-items: center;
+    width: 50vh;
+}
+.linkNews {
+    display: block;
+	text-decoration: none;
+}
+.linksNews li {
+    list-style-type: none;
+    font-weight:700;
+	font-size: 30px;
+	color: #2e3094;
+}
+.linksNews a{
+	text-decoration: none;
+	color: rgb(52, 63, 141);;
+}
+.linksNews a:hover {
+    color: rgb(52, 63, 141);
+}
+
+footer {
+    display: flex;
+    justify-content: center;
+    justify-content: space-evenly;
+    padding-top: 1.5cm;
+    background-color: rgb(52, 63, 141);
+    height: 60vh;
+    color: white;
+
+}
+.contact_container {
+    display: block;
+}
+.contact_container h2 {
+    margin-bottom: 17px;
+}
+.email_and_number {
+    line-height: 27px;
+    font-size: 17px;
+    font-weight: 500;
+    margin-bottom: 1.4pc;
+}
+.email_and_number span {
+    border-left: white solid 1px;
+    border-right: white solid 1px;
+}
+.email_and_number a {
+    color: rgb(100, 198, 236);
+}
+.contact_container h2  {
+    width: 350px;
+}
+.School_address {
+    font-size: 17px;
+    font-weight: 500;
+    width: 250px;
+}
+.information_container {
+    display: block;
+}
+.information_container h2 {
+    margin-bottom: 10px;
+}
+.departments {
+    list-style-type: none;
+    line-height: 47px;
+	
+}
+.departments a {
+    text-decoration: none;
+    color: white;
+    font-weight: 500;
+    font-size: 17px;
+}
+.strand_footer_container h2 {
+    margin-bottom: 2pc;
+}
+.strand_footer_content {
+    line-height: 47px;
+    
+}
+.strand_footer_container a {
+    color: white;
+    text-decoration: none;
+    list-style-type: none;
+    font-weight: 500;
+    font-size: 17px;
+}
+.socmed_container {
+}
+.socmed_container h2 {
+    margin-bottom: 2pc;
+}
+.socmed_content i {
+    font-size: 30px;
+    color: white;
+    margin: 7px;
+}
+.socmed_container img {
+    width: 300px;
+    margin-top: 12px;
+}
+
+.tablink {
+  background-color: #555;
+  color: white;
+  float: left;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  padding: 14px 16px;
+  font-size: 17px;
+  width: 50%;
+}
+
+.tablink:hover {
+  background-color: #777;
+}
+.tabcontent {
+  display: none;
+  padding: 50px;
+  text-align: center;
+}
+
+#London {background-color:#2e3094;}
+#Paris {background-color:#fed41d;}
+
+.visioncontent {
+	color: #2e3094;
+	font-size:20px;
+}
+.visioncontentheader{
+	color:#2e3094;
+	font-size:30px;
+}
+.missioncontent{
+	color:white;
+}
+.navbar {
+    overflow: hidden;
+    background-color: #343F8D;
+    z-index: 1;
+}
+
+.NU_ICON {
+    height: 73px;
+    padding: 10px 10px;
+    float: left;
+}
+
+.strand_drpdwn {
+    overflow: hidden;
+    float: left;
+}
+
+.strand_drpdwn .strand_drpdwn_button{
+    font-size: 17px;
+    border:none;
+    background-color: #343F8D;
+    color: white;
+    margin: 0px;
+    padding: 25px 22px;
+    font-weight: bold;
+}
+
+.strand_drpdwn_button:hover{
+    background-color:#28306d;
+}
+
+.strand_drpdwn_content{
+    background-color: #b8b8b8;
+    position: absolute;
+    display: none;
+    z-index: 2;
+    min-width: 107px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: black;
+}
+
+.strand_drpdwn_content a{
+    float: none;
+    padding: 25px 22px;
+    display: block;
+    text-align: left;
+    text-decoration: none;
+    color: black;
+}
+
+.strand_drpdwn:hover .strand_drpdwn_content {
+    display: block;
+}
+
+.strand_drpdwn_content a:hover{
+    background-color: #8a8a8a;
+}
+.navbutton{
+	padding: 25px 22px;
+	background-color: #343F8D;
+	color: white;
+	font-size: 17px;
+	margin: 0px;
+	border: none;
+	font-weight: bold;
+}
+.navbutton:hover{
+	background-color:#28306d;
+}
+
+.navbutton a{
+	text-decoration: none;
+	color: white;
+}
+
+
+
+
+

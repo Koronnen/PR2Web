@@ -1,0 +1,200 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: syhumms-ui, -apple-syhumms, BlinkMacSyhummsFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+header {
+    display: flex;
+    width: auto;
+    height: 67px;
+    background-color: rgb(52, 63, 141);
+    justify-content: space-between;
+}
+.title {
+    display: flex;
+    align-items: center;
+    margin: 5px;
+    width: 187px;
+}
+.title img {
+    height: 60px;
+    margin-left: 17px;
+}
+.right_container {
+    display: flex;
+}
+.hdr_nav_container {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 20pc;
+    color: white;
+}
+.hdr_nav_container span:hover {
+    border-bottom: 2px solid white;
+    transition: 0.1s;
+}
+.hdr_nav_container a {
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+
+}
+.search_container {
+    background-color: none;
+    display: block;
+    position: relative;
+    width: 17pc;
+}
+.search_container input {
+    position: absolute;
+    top: 1.2pc;
+    width: 15pc;
+    padding: 7px;
+    border-radius: 3px;
+    border: none;
+}
+.faci_title { 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 7pc;
+}
+.faci_title h1 {
+    font-size: 47px;
+}
+.facilities_slideshows {
+    text-align: center;
+}
+.slide {
+    display: none;
+}
+.slide p {
+    font-size: 27px;
+    margin-top: 15px;
+    margin-bottom: 17px;
+}
+.slide img {
+    width: 50%;
+}
+
+.prev,
+.next {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    background-color: #f1f1f1;
+    border: none;
+    color: black;
+    padding: 10px;
+    cursor: pointer;
+}
+
+.prev {
+    background-color: grey ;
+    height: 10pc;
+    width: 50px;
+    left: 152px;
+}
+
+.next {
+    height: 10pc;
+    width: 50px;
+    background-color: grey;
+    right: 152px;
+}
+.next:active, .prev:active {
+    opacity: 0.7;
+}
+footer {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(52, 63, 141);
+    height: 226px;
+    margin-top: 10px;
+    padding: 20px 0 20px 0;
+}
+footer p {
+    color: white;
+    font-size: 17px;
+    width: 25cm;
+}
+
+.navbar {
+    overflow: hidden;
+    background-color: #343F8D;
+    z-index: 1;
+}
+
+.NU_ICON {
+    height: 73px;
+    padding: 10px 10px;
+    float: left;
+}
+
+.strand_drpdwn {
+    overflow: hidden;
+    float: left;
+}
+
+.strand_drpdwn .strand_drpdwn_button{
+    font-size: 17px;
+    border:none;
+    background-color: #343F8D;
+    color: white;
+    margin: 0px;
+    padding: 25px 22px;
+    font-weight: bold;
+}
+
+.strand_drpdwn_button:hover{
+    background-color:#28306d;
+}
+
+.strand_drpdwn_content{
+    background-color: #b8b8b8;
+    position: absolute;
+    display: none;
+    z-index: 2;
+    min-width: 107px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: black;
+}
+
+.strand_drpdwn_content a{
+    float: none;
+    padding: 25px 22px;
+    display: block;
+    text-align: left;
+    text-decoration: none;
+    color: black;
+}
+
+.strand_drpdwn:hover .strand_drpdwn_content {
+    display: block;
+}
+
+.strand_drpdwn_content a:hover{
+    background-color: #8a8a8a;
+}
+.navbutton{
+	padding: 25px 22px;
+	background-color: #343F8D;
+	color: white;
+	font-size: 17px;
+	margin: 0px;
+	border: none;
+	font-weight: bold;
+}
+.navbutton:hover{
+	background-color:#28306d;
+}
+.navbutton a{
+	text-decoration: none;
+	color: white;
+}
