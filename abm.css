@@ -219,6 +219,9 @@ td {
 	padding: 12px;
 	border-bottom: 1px solid;
 }
+tr:nth-child(even) {
+	background-color:lightgray;
+}
 .titlee {
 	text-align: center;
 }
