@@ -85,10 +85,12 @@ header {
     top: 15pc;
 }
 .humms_description {
-    color: black;
-    line-height: 37px;
-    font-size: 27px;
-    height: auto;
+    background-color: none;
+    position: absolute;
+    width: 50pc;
+    right: 7pc;
+    top: 13pc;
+	font-size: 30px;
 }
 .humms_button {
     display: flex;
@@ -268,7 +270,30 @@ header {
 	text-decoration: none;
 	color: white;
 }
+table {
+	margin: auto;
+}
 
+th {
+	font-size: 25px;
+	text-align: left;
+}
+
+td {
+	font-size: 18px;
+	padding: 12px;
+	border-bottom: 1px solid;
+}
+.titlee {
+	text-align: center;
+}
+
+tr {
+	width: 75%;
+}
+tr:nth-child(even) {
+	background-color:lightgray;
+}
 
 
 
