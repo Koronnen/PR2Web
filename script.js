@@ -20,7 +20,7 @@ function showSlides(n) {
     slides[slideIndex - 1].style.display = "block";
 }
 
-function openCity(cityName,elmnt,color) {
+function openMnV(MnV,elmnt,color) {
   var i, tabcontent, tablinks;
   tabcontent = document.getElementsByClassName("tabcontent");
   for (i = 0; i < tabcontent.length; i++) {
@@ -30,7 +30,7 @@ function openCity(cityName,elmnt,color) {
   for (i = 0; i < tablinks.length; i++) {
     tablinks[i].style.backgroundColor = "";
   }
-  document.getElementById(cityName).style.display = "block";
+  document.getElementById(MnV).style.display = "block";
   elmnt.style.backgroundColor = color;
 
 }
