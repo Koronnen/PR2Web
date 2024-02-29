@@ -289,6 +289,9 @@ td {
 tr {
 	width: 75%;
 }
+tr:nth-child(even) {
+	background-color:lightgray;
+}
 .navbutton a{
 	text-decoration: none;
 	color: white;
