@@ -212,6 +212,8 @@ table {
 th {
 	font-size: 25px;
 	text-align: left;
+	padding: 5px;
+	color: white;
 }
 
 td {
@@ -220,7 +222,11 @@ td {
 	border-bottom: 1px solid;
 }
 tr:nth-child(even) {
-	background-color:lightgray;
+	background-color:#28306d;
+	color: white;
+}
+tr:nth-child(odd) {
+	background-color:#a8933d;
 }
 .titlee {
 	text-align: center;
