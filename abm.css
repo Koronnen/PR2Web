@@ -19,6 +19,18 @@ header {
     margin: 5px;
     width: 187px;
 }
+p {
+	font-family: "DM Sans", sans-serif;
+}
+h1 {
+	font-family: "Rubik", sans-serif;
+}
+h2 {
+	font-family: "Rubik", sans-serif;
+}
+a {
+	font-family: "Rubik", sans-serif;
+}
 
 .title img {
     height: 60px;
