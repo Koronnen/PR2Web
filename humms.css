@@ -292,7 +292,15 @@ tr {
 	width: 75%;
 }
 tr:nth-child(even) {
-	background-color:lightgray;
+	background-color:#28306d;
+	color: white;
+}
+tr:nth-child(odd) {
+	background-color:#a8933d;
+}
+th {
+	padding: 5px;
+	color: white;
 }
 
 
