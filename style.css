@@ -13,6 +13,18 @@ header {
     background-color: rgb(52, 63, 141);
     justify-content: space-between;
 }
+p {
+	font-family: "DM Sans", sans-serif;
+}
+h1 {
+	font-family: "Rubik", sans-serif;
+}
+h2 {
+	font-family: "Rubik", sans-serif;
+}
+a {
+	font-family: "Rubik", sans-serif;
+}
 .title {
     display: flex;
     align-items: center;
