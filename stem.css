@@ -1,139 +1,343 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
 
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>NU Fairview SHS</title>
-    <link rel="stylesheet" href="stem.css">
-    <link rel="icon" href="web_pic/Nu logo.webp">  
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/pbs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
-    <script src="script.js"></script>
-	<style>
-	@import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&display=swap')
-	@import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=Rubik:ital,wght@0,300..900;1,300..900&display=swap')
-	</style>
-</head>
-<body>
-    <div class="navbar">
-        <a class="icon" href="index.html"> <image class="NU_ICON" src="web_pic/NU_LOGO(3).png"> </image> </a>
-            <div class="strand_drpdwn"> 
-                <button class="strand_drpdwn_button"> Strands </button>
-                <div class="strand_drpdwn_content">
-                    <a href="stem.html"> STEM </a>
-                    <a href="abm.html"> ABM </a>
-                    <a href="humms.html"> HUMSS </a>
-                </div>
-            </div>
-		<button class="navbutton"> <a href="##">Organization </a></button>
-		<button class="navbutton"> <a href="facilities.html"> Facilities </a></button>
-		<button class="navbutton"> <a href="https://onlineapp.nu-fairview.edu.ph/projectnuis/login.php?reason=timeout"> NUIS </a></button>
-    </div>
+header {
+    display: flex;
+    width: auto;
+    height: 67px;
+    background-color: rgb(52, 63, 141);
+    justify-content: space-between;
+}
+.title {
+    display: flex;
+    align-items: center;
+    margin: 5px;
+    width: 187px;
+}
+p {
+	font-family: "DM Sans", sans-serif;
+}
+h1 {
+	font-family: "Rubik", sans-serif;
+}
+h2 {
+	font-family: "Rubik", sans-serif;
+}
+a {
+	font-family: "Rubik", sans-serif;
+}
+.title img {
+    height: 60px;
+    margin-left: 17px;
+}
+.fade {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 66vh;
+    background: rgba(50, 62, 143, 0.9);
+}
+.right_container {
+    display: flex;
+}
+.hdr_nav_container {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 20pc;
+    color: white;
+}
+.hdr_nav_container span:hover {
+    border-bottom: 2px solid white;
+    transition: 0.1s;
+}
+.hdr_nav_container a {
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
 
-    <section class="strds_container">
-        <img src="strand_pic/stemm.jpg">
-		<p class="fade"></p>
-        <div class="Stem_title">
-            <h2>
-                Science, Technology, Engineering, and Mathematics
-            </h2>
-        </div>
-        <div class="stem_description">
-            <p>
-              A specialized academic track in education that focuses on Science, Technology, 
-              Engineering, and Mathematics (STEM) subjects. This educational pathway is 
-              designed to provide students with a strong foundation in these disciplines, 
-              preparing them for careers and further studies in fields such as engineering, 
-              computer science, natural sciences, and mathematics.
-            </p>
-        </div>
-    </section>
-<br>
-<br>
-	
-	<h2 class="titlee"> Below are the skills you will learn after taking this strand: </h2><br>
-	<div class="skills">
-	<table style="width: 75%">
-		<tr>
-			<th> Skills </th>
-			<th> Description </th>
-		</tr>
-		<tr>
-			<td><p> Analytical and Critical Thinking </p></td>
-			<td><p> STEM education promotes logical reasoning and problem-solving skills, enabling students to analyze complex situations and find effective solutions. </p></td>
-		</tr>
-		<tr>
-			<td> Mathematical Proficiency </p></td>
-			<td><p> STEM students gain a strong foundation in various mathematical disciplines, including algebra, calculus, and statistics.</p></td>
-		</tr>
-		<tr>
-			<td><p> Technological Literacy </p></td>
-			<td><p> <p> Students become familiar with a range of technologies, enhancing their ability to adapt to and work with evolving technological advancements. </p></td>
-		</tr>
-		<tr>
-			<td><p> Research Skills </p></td>
-			<td><p> STEM education encourages students to conduct research, fostering the ability to gather, analyze, and interpret data effectively. </p></td>
-		</tr>
-		<tr>
-			<td><p> Communication Skills </p></td>
-			<td><p> STEM students learn to communicate scientific findings and ideas clearly, both in written and oral formats. </p></td>
-		</tr>
-		<tr>
-			<td><p> Teamwork and Collaboration </p></td>
-			<td><p> Many STEM projects involve collaboration, allowing students to develop effective teamwork and interpersonal skills. </p></td>
-		</tr>
-		<tr>
-			<td><p> Coding and Programming </p></td>
-			<td><p> In the context of technology and computer science, STEM students often learn coding and programming languages, enhancing their ability to create software solutions. </p></td>
-		</tr>
-	</table>		
-	</div>
-	
-    <div class="stem_button">
-        <a href="https://onlineapp.nu-fairview.edu.ph/quest/register.php">
-            <button>
-                APPLY NOW!
-            </button>
-        </a>
-    </div>
-<!--
-    <section class="download_content">
-        <div class="aside1">
-            <div class="download_curriculum">
-                <p>
-                    Download curriculum 
-                </p>
-            </div>
-            <div class="download_fees">
-                <p>
-                    Download tuition and other fees 
-                </p>
-            </div>
-        </div>
-    </section>
--->
-    <section class="last_container">
-        <div class="careerpath_container">
-            <h1>Career paths</h1>
-            <div class="careerpath_content">
-                <p>Engineers</p>
-                <p>Software Developer</p>
-                <p>Biologist</p>
-                <p>Data Scientist</p>
-                <p>Chemist</p>
-                <p>Physicist</p>
-                <p>Geologist</p>
-                <p>Scientist</p>
-                <p>Astronomer</p>
-                <p>Mathematician</p>
-                <p>Statistician</p>
-            </div>
-        </div>
-    </section>
+}
+.search_container {
+    background-color: none;
+    display: block;
+    position: relative;
+    width: 17pc;
+}
+.search_container input {
+    position: absolute;
+    top: 1.2pc;
+    width: 15pc;
+    padding: 7px;
+    border-radius: 3px;
+    border: none;
+}
+/* Image section */
+.strds_container {
+    position: relative;
+    display: block;
+}
+.strds_container img {
+    width: 100%;
+    height: 40pc
+}
+.Stem_title {
+    position: absolute;
+    top:10pc;
+    left: 6pc;
+    background-color: none;
+    width: 57pc;
+}
+.Stem_title h2 {
+    font-size: 80px;
+    font-stretch: expanded;
+    color: white;
+}
+.stem_description {
+    background-color: none;
+    position: absolute;
+    width: 50pc;
+    right: 6pc;
+    top: 10pc;
+	font-weight: 700;
+}
+.stem_description {
+    color: white;
+    line-height: 37px;
+    font-size: 27px;
+    height: auto;
+    padding: 25px 30px;
+    text-shadow: 1px;
+	text-align: justify;
+	text-justify: inter-word;
+}
+.stem_button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: none;
+    height: 130px;
+}
+.stem_button button {
+    position: relative;
+    width: 15pc;
+    height: 4pc;
+    border: white 7px double;
+    border-radius: 207px;
+    cursor: pointer;
+    font-size: 17px;
+    font-weight: 500;
+    background-color: rgb(52, 63, 141);
+    color: white;
+}
+.stem_button button:hover {
+    box-shadow: 0px 8px 4px 0px rgba(0, 0, 0, 0.644);
+    margin-bottom: 12px;
+    transition: 0.1s
+}
+.stem_button button:active {
+    opacity: 0.7;
+    transition: 1ms;
+}
+.aside1 {
+    display: flex;
+    background-color: none;
+    width: 100%;
+    justify-content: center;
+    justify-content: space-around;
+}
+.download_content {
+    display: flex;
+    width: 100%;
+    height: 11vh;
+    position: relative;
+    margin-bottom: 15px;
+}
+.download_curriculum {
+    background-color:  rgb(52, 63, 141);
+    display: flex;
+    width: 300px;
+    height: 67px;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    border-radius: 7px;
+    cursor: pointer;
+}
+.download_curriculum p {
+    font-size: 17px;
+    font-weight: 500;
+    display: flex;
+    justify-content: space-around;
+    width: 14pc;
+}
+.download_curriculum i {
+    font-size: 20px;
+}
+.download_fees {
+    background-color:  #323e8f;
+    display: flex;
+    width: 300px;
+    height: 67px;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    border-radius: 7px;
+    cursor: pointer;
+}
+.download_fees p {
+    font-size: 17px;
+    font-weight: 500;
+    display: flex;
+    justify-content: space-around;
+    width: 14pc; 
+}
+.last_container {
+    display: flex;
+    justify-content: center;
+    background-color:  #323e8f;
+    text-align: center;
+    height:100%;
+    padding-bottom: 27px;
+}
+.careerpath_container {
+    display: block;
+    color: white;
+}
+.careerpath_container h1 {
+    font-size: 47px;
+    margin-bottom: 17px;
+    margin-top: 3px;
+}
+.careerpath_content {
+    column-count: 4;
+}
+.careerpath_content p {
+    margin-bottom: 10px;
+    font-size: 27px;
+}
 
-	
-</body>
-</html>
+.navbar {
+    overflow: hidden;
+    background-color: #323e8f;
+    z-index: 1;
+}
+
+.NU_ICON {
+    height: 73px;
+    padding: 10px 10px;
+    float: left;
+}
+
+.strand_drpdwn {
+    overflow: hidden;
+    float: left;
+}
+
+.strand_drpdwn .strand_drpdwn_button{
+    font-size: 17px;
+    border:none;
+    background-color: #323e8f;
+    color: white;
+    margin: 0px;
+    padding: 25px 22px;
+    font-weight: bold;
+}
+
+.strand_drpdwn_button:hover{
+    background-color:#28306d;
+}
+
+.strand_drpdwn_content{
+    background-color: #b8b8b8;
+    position: absolute;
+    display: none;
+    z-index: 2;
+    min-width: 107px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: black;
+}
+
+.strand_drpdwn_content a{
+    float: none;
+    padding: 25px 22px;
+    display: block;
+    text-align: left;
+    text-decoration: none;
+    color: black;
+}
+
+.strand_drpdwn:hover .strand_drpdwn_content {
+    display: block;
+}
+
+.strand_drpdwn_content a:hover{
+    background-color: #8a8a8a;
+}
+.navbutton{
+	padding: 25px 22px;
+	background-color: #323e8f;
+	color: white;
+	font-size: 17px;
+	margin: 0px;
+	border: none;
+	font-weight: bold;
+}
+.navbutton:hover{
+	background-color:#28306d;
+}
+
+table {
+	margin: auto;
+}
+
+th {
+	font-size: 25px;
+	text-align: left;
+}
+
+td {
+	font-size: 18px;
+	padding: 12px;
+	border-bottom: 1px solid;
+}
+.titlee {
+	text-align: center;
+}
+
+tr {
+	width: 75%;
+}
+tr:nth-child(even) {
+	background-color:#323e8f;
+	color: white;
+}
+tr:nth-child(odd) {
+	background-color:#a8933d;
+}
+th {
+	padding: 5px;
+	color: white;
+}
+.navbutton a{
+	text-decoration: none;
+	color: white;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
