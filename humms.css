@@ -169,7 +169,7 @@ a {
 }
 .download_fees {
     cursor: pointer;
-    background-color:  #343f8d;
+    background-color:  #323e8f;
     display: flex;
     width: 300px;
     height: 67px;
@@ -188,7 +188,7 @@ a {
 .last_container {
     display: flex;
     justify-content: center;
-    background-color:  #343f8d;
+    background-color:  #323e8f;
     text-align: center;
     height:100%;
     padding-bottom: 27px;
@@ -211,7 +211,7 @@ a {
 }
 .navbar {
     overflow: hidden;
-    background-color: #343F8D;
+    background-color: #323e8f;
     z-index: 1;
 }
 
@@ -229,7 +229,7 @@ a {
 .strand_drpdwn .strand_drpdwn_button{
     font-size: 17px;
     border:none;
-    background-color: #343F8D;
+    background-color: #323e8f;
     color: white;
     margin: 0px;
     padding: 25px 22px;
@@ -268,7 +268,7 @@ a {
 }
 .navbutton{
 	padding: 25px 22px;
-	background-color: #343F8D;
+	background-color: #323e8f;
 	color: white;
 	font-size: 17px;
 	margin: 0px;
