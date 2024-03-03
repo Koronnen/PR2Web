@@ -36,7 +36,14 @@ a {
     height: 60px;
     margin-left: 17px;
 }
-
+.fade {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 66vh;
+    background: rgba(50, 62, 143, 0.9);
+}
 .right_container {
     display: flex;
 }
@@ -87,7 +94,7 @@ a {
 }
 .abm_title {
     position: absolute;
-    top:10pc;
+    top: 9.5pc;
     left: 7pc;
     background-color: none;
     width: 57pc;
@@ -95,17 +102,21 @@ a {
 .abm_title h2 {
     font-size: 87px;
     font-stretch: expanded;
-    color: black;
+    color: white;
 }
 .abm_description {
     background-color: none;
     position: absolute;
     width: 50pc;
     right: 7pc;
-    top: 15pc;
+    top: 10.5pc;
+	font-weight: 700;
+	text-align: justify;
+	text-justify: inter-word;
+
 }
 .abm_description {
-    color: black;
+    color: white;
     line-height: 37px;
     font-size: 27px;
     height: auto;
