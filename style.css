@@ -218,6 +218,9 @@ a {
 }
 .strand_description p  {
     margin-top: 7px;
+	text-align: justify;
+	text-justify: inter-word;
+	text-indent: 50px;
 }
 
 
@@ -225,7 +228,7 @@ a {
     display: flex;
     position: relative;
     flex-direction: row;
-    background-color: gold;
+    background-color: #ffd516;
     margin-top: 27px;
     width: auto;
     height: 55vh;
@@ -419,18 +422,19 @@ footer {
   display: none;
   padding: 50px;
   text-align: center;
+  padding-top: 100px;
 }
 
-#Mission {background-color:#2e3094;}
-#Vision {background-color:#fed41d;}
+#Mission {background-color:#323e8f;}
+#Vision {background-color:#ffd516;}
 
 .visioncontent {
-	color: #2e3094;
+	color: #323e8f;
 	font-size:20px;
 	line-height: 2;
 }
 .visioncontentheader{
-	color:#2e3094;
+	color:#323e8f;
 	font-size:35px;
 }
 .missioncontentheader {
@@ -444,7 +448,7 @@ footer {
 }
 .navbar {
     overflow: hidden;
-    background-color: #343F8D;
+    background-color: #323e8f;
     z-index: 1;
 }
 
@@ -462,7 +466,7 @@ footer {
 .strand_drpdwn .strand_drpdwn_button{
     font-size: 17px;
     border:none;
-    background-color: #343F8D;
+    background-color: #323e8f;
     color: white;
     margin: 0px;
     padding: 25px 22px;
@@ -470,7 +474,7 @@ footer {
 }
 
 .strand_drpdwn_button:hover{
-    background-color:#28306d;
+    background-color:#323e8f;
 }
 
 .strand_drpdwn_content{
@@ -501,7 +505,7 @@ footer {
 }
 .navbutton{
 	padding: 25px 22px;
-	background-color: #343F8D;
+	background-color: #323e8f;
 	color: white;
 	font-size: 17px;
 	margin: 0px;
