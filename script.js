@@ -35,3 +35,8 @@ function openMnV(MnV,elmnt,color) {
 
 }
 document.getElementById("defaultOpen").click();
+
+function on_load(){
+	changeSlide(1);
+	openMnV('Mission', this, 'gray');
+}
