@@ -12,13 +12,14 @@
     <link href="https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&display=swap" rel="stylesheet">
     <link href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer">
-    <script src="script.js"></script>
+    <script src="script.js">
+	</script>
 	<style>
 	@import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&display=swap')
 	@import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=Rubik:ital,wght@0,300..900;1,300..900&display=swap')
 	</style>
 </head>
-<body onload="showSlides(1)">
+<body onload="on_load()">
 <div id="fb-root"></div>
 <script async defer crossorigin="anonymous" src="https://connect.facebook.net/en_US/sdk.js#xfbml=1&version=v19.0" nonce="iSjd3Kb1"></script>
     <div class="navbar">
@@ -28,7 +29,7 @@
                 <div class="strand_drpdwn_content">
                     <a href="stem.html"> STEM </a>
                     <a href="abm.html"> ABM </a>
-                    <a href="humss.html"> HUMSS </a>
+                    <a href="humms.html"> HUMSS </a>
                 </div>
             </div>
 		<button class="navbutton"> <a href="##">Organization </a></button>
@@ -53,7 +54,10 @@
             </div>   
         </div>
     </section>
-
+<div class="tabs">
+	<button class="tablink" onclick="openMnV('Mission', this, 'gray')" id="defaultOpen">Mission</button>
+	<button class="tablink" onclick="openMnV('Vision', this, 'gray')">Vision</button>
+</div>
 <div id="Mission" class="tabcontent">
   <h1 class="missioncontentheader">Mission</h1>
 	<br>
@@ -83,11 +87,8 @@ We are committed to our:
 	</p> 
 	 
 </div>
-<div class="tabs">
-	<button class="tablink" onclick="openMnV('Mission', this, 'gray')" id="defaultOpen">Mission</button>
-	<button class="tablink" onclick="openMnV('Vision', this, 'gray')">Vision</button>
-</div>
-	<br><br><br><br><br><br><br>
+
+	<br><br><br><br>
 
     <main class="strand_container">
         <div class="pick_strand">
@@ -138,24 +139,31 @@ We are committed to our:
             </div>
             </a>
         </div>
-    </main>
+	</main>
+	<br>
+	<br>
+	<br>
+
     <br>
 	<h1>Announcement | Events </h1>
     <section class="news_container">
  
         <div class="slideshow-container">
             <div class="slide">
-               <iframe src="https://www.facebook.com/plugins/post.php?href=https%3A%2F%2Fwww.facebook.com%2Fnufvsg%2Fposts%2Fpfbid02F3N8sv95HcfV4muRUSv8HB2QDb7YQB9cR2JXiuPqSzTrrndzVwz4b5KYCrhZJr6Bl&width=1200&show_text=true&height=558&appId" width="1200" height="500" style="border:none;overflow:hidden;padding-left: 200px;" scrolling="no" frameborder="0" allowfullscreen="true" allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share"></iframe>
+               <iframe src="https://www.facebook.com/plugins/post.php?href=https%3A%2F%2Fwww.facebook.com%2Fnufvsg%2Fposts%2Fpfbid02F3N8sv95HcfV4muRUSv8HB2QDb7YQB9cR2JXiuPqSzTrrndzVwz4b5KYCrhZJr6Bl&width=1200&show_text=true&height=1000&appId" width="1000" height="500" style="border:none;overflow:hidden;padding-left: 200px;" scrolling="no" frameborder="0" allowfullscreen="true" allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share"></iframe>
             </div>
             <div class="slide">
-               <iframe src="https://www.facebook.com/plugins/post.php?href=https%3A%2F%2Fwww.facebook.com%2Fnufvsg%2Fposts%2Fpfbid0CRM1V2SxRr4NGVRs8Z7DRdbViUk2uEVr6LRceyVFabZs4jKaUP1RFiadwFwNg9bAl&show_text=true&width=500" width="1000" height="500" style="border:none;overflow:hidden;padding-left: 160px;" scrolling="no" frameborder="0" allowfullscreen="true" allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share"></iframe>
+               <iframe src="https://www.facebook.com/plugins/post.php?href=https%3A%2F%2Fwww.facebook.com%2Fnufvsg%2Fposts%2Fpfbid0CRM1V2SxRr4NGVRs8Z7DRdbViUk2uEVr6LRceyVFabZs4jKaUP1RFiadwFwNg9bAl&show_text=true&width=1000" width="1000" height="500" style="border:none;overflow:hidden;padding-left: 160px;" scrolling="no" frameborder="0" allowfullscreen="true" allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share"></iframe>
             </div>
             <div class="slide">
-                <iframe src="https://www.facebook.com/plugins/post.php?href=https%3A%2F%2Fwww.facebook.com%2Fnufvsg%2Fposts%2Fpfbid02zjuw1S2cteEsRvSKaPJNxmCDW6STiBg3P2uqqT1FjNCN8e3ovbEpJtsio1VEstKZl&show_text=true&width=500" width="1000" height="500" style="border:none;overflow:hidden;padding-left: 350px" scrolling="no" frameborder="0" allowfullscreen="true" allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share"></iframe>
+                <iframe src="https://www.facebook.com/plugins/post.php?href=https%3A%2F%2Fwww.facebook.com%2FNUFairviewSHS%2Fposts%2Fpfbid0TDrAtNcoYHfXkRDVgssVa7nokkGjcnVvSdB9zW8UoFiWHJACUDLjqAsJk55R3ua3l&show_text=true&width=1000" width="1000" height="500" style="border:none;overflow:hidden;padding-left: 160px;" scrolling="no" frameborder="0" allowfullscreen="true" allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share"></iframe>
             </div>
             <div class="slide">
                 <iframe src="https://www.facebook.com/plugins/post.php?href=https%3A%2F%2Fwww.facebook.com%2Fnufvsg%2Fposts%2Fpfbid0sdRmdBJ1sTGsV45UPyq8pQ7CFBdaZTzUn3i9dsYSXqFt9ok4JsoeYcv9Ua7JX5Uul&show_text=true&width=1000" width="1000" height="500" style="border:none;overflow:hidden;padding-left: 200px" scrolling="no" frameborder="0" allowfullscreen="true" allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share"></iframe>
             </div>
+			<div class="slide">
+				<iframe src="https://www.facebook.com/plugins/post.php?href=https%3A%2F%2Fwww.facebook.com%2FNUFairviewSHS%2Fposts%2Fpfbid02R5M927KZmbaYTpA3gKggt3jsgvvp5mrVcYXG21DoxFvynHuz3qoQyN9aBcrkCQ4el&show_text=true&width=100" width="1000" height="500" style="border:none;overflow:hidden; padding-left: 160px;" scrolling="no" frameborder="0" allowfullscreen="true" allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share"></iframe>
+			</div>
         </div>
 
         <a class="prev" onclick="changeSlide(-1)">&#10094;</a>
