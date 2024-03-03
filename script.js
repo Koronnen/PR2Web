@@ -34,9 +34,8 @@ function openMnV(MnV,elmnt,color) {
   elmnt.style.backgroundColor = color;
 
 }
-document.getElementById("defaultOpen").click();
 
 function on_load(){
 	changeSlide(1);
-	openMnV('Mission', this, 'gray');
+	openMnV('Mission', this, '#323e8f');
 }
