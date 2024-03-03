@@ -224,8 +224,7 @@ table {
 th {
 	font-size: 25px;
 	text-align: left;
-	padding: 5px;
-	color: white;
+	font-family: "Rubik", sans-serif;
 }
 
 td {
@@ -233,16 +232,26 @@ td {
 	padding: 12px;
 	border-bottom: 1px solid;
 }
+.titlee {
+	text-align: center;
+}
+
+tr {
+	width: 75%;
+}
 tr:nth-child(even) {
 	background-color:#28306d;
 	color: white;
 }
 tr:nth-child(odd) {
 	background-color:#a8933d;
+	font-family: "DM Sans", sans-serif;
 }
-.titlee {
-	text-align: center;
+th {
+	padding: 5px;
+	color: white;
 }
+
 
 .navbar {
     overflow: hidden;
