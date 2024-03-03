@@ -175,7 +175,7 @@ a {
 }
 .download_fees {
     cursor: pointer;
-    background-color:  #343f8d;
+    background-color:  #323e8f;
     display: flex;
     width: 300px;
     height: 67px;
@@ -194,7 +194,7 @@ a {
 .last_container {
     display: flex;
     justify-content: center;
-    background-color:  #343f8d;
+    background-color:  #323e8f;
     text-align: center;
     height:100%;
     padding-bottom: 27px;
@@ -224,7 +224,8 @@ table {
 th {
 	font-size: 25px;
 	text-align: left;
-	font-family: "Rubik", sans-serif;
+	padding: 5px;
+	color: white;
 }
 
 td {
@@ -232,30 +233,20 @@ td {
 	padding: 12px;
 	border-bottom: 1px solid;
 }
-.titlee {
-	text-align: center;
-}
-
-tr {
-	width: 75%;
-}
 tr:nth-child(even) {
 	background-color:#28306d;
 	color: white;
 }
 tr:nth-child(odd) {
 	background-color:#a8933d;
-	font-family: "DM Sans", sans-serif;
 }
-th {
-	padding: 5px;
-	color: white;
+.titlee {
+	text-align: center;
 }
-
 
 .navbar {
     overflow: hidden;
-    background-color: #343F8D;
+    background-color: #323e8f;
     z-index: 1;
 }
 
@@ -273,7 +264,7 @@ th {
 .strand_drpdwn .strand_drpdwn_button{
     font-size: 17px;
     border:none;
-    background-color: #343F8D;
+    background-color: #323e8f;
     color: white;
     margin: 0px;
     padding: 25px 22px;
@@ -312,7 +303,7 @@ th {
 }
 .navbutton{
 	padding: 25px 22px;
-	background-color: #343F8D;
+	background-color: #323e8f;
 	color: white;
 	font-size: 17px;
 	margin: 0px;
