@@ -87,6 +87,14 @@ a {
     height: 70vh;
     background: linear-gradient(to top, rgba(0, 0, 0, 0.733), rgba(0, 0, 0, 0));
 }
+.fade_1 {
+	position: absolute;
+	top: 819px;
+    left: 0;
+    width: 100%;
+    height: 36.3vh;
+    background: rgba(0, 0, 0, 0.05);
+}
 .Nu_descri {
     display: block;
     position: absolute;
@@ -414,7 +422,6 @@ footer {
   font-size: 20px;
   width: 50%;
 }
-
 .tablink:hover {
   background-color: #777;
 }
@@ -439,11 +446,22 @@ footer {
 }
 .missioncontentheader {
 	color: white;
-	font-color: 25px;
+	font-size: 25px;
 }
 .missioncontent{
 	color:white;
 	line-height: 2;
+	font-size: 18px;
+}
+.mission_header th {
+	color: white;
+	font-size: 25px;
+}
+.mission_table tr {
+	width: 200px;
+}
+.mission_description {
+	color: white;
 	font-size: 18px;
 }
 .navbar {
