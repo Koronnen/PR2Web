@@ -287,6 +287,7 @@ table {
 th {
 	font-size: 25px;
 	text-align: left;
+	font-family: "Rubik", sans-serif;
 }
 
 td {
@@ -307,11 +308,13 @@ tr:nth-child(even) {
 }
 tr:nth-child(odd) {
 	background-color:#a8933d;
+	font-family: "DM Sans", sans-serif;
 }
 th {
 	padding: 5px;
 	color: white;
 }
+
 .navbutton a{
 	text-decoration: none;
 	color: white;
