@@ -249,7 +249,8 @@ a {
 }
 
 .strand_drpdwn_button:hover{
-    background-color:#28306d;
+    background-color:#ffd516;
+	color: #323e8f;
 }
 
 .strand_drpdwn_content{
@@ -257,8 +258,7 @@ a {
     position: absolute;
     display: none;
     z-index: 2;
-    min-width: 107px;
-    font-family: Arial, Helvetica, sans-serif;
+    min-width: 104.5px;
     color: black;
 }
 
@@ -268,15 +268,21 @@ a {
     display: block;
     text-align: left;
     text-decoration: none;
-    color: black;
+    color: #323e8f;
+	font-family: "Rubik", sans-serif;
+	font-weight: bold;
 }
 
 .strand_drpdwn:hover .strand_drpdwn_content {
     display: block;
+	background-color: #ffd516;
 }
 
 .strand_drpdwn_content a:hover{
-    background-color: #8a8a8a;
+    background-color: rgb(219, 182, 18);
+}
+.strand_drpdwn_content a:active{
+    background-color: rgb(219, 182, 18);
 }
 .navbutton{
 	padding: 25px 22px;
@@ -289,6 +295,11 @@ a {
 }
 .navbutton:hover{
 	background-color:#28306d;
+}
+
+.navbutton a{
+	text-decoration: none;
+	color: white;
 }
 
 table {
@@ -323,11 +334,6 @@ th {
 	padding: 5px;
 	color: white;
 }
-.navbutton a{
-	text-decoration: none;
-	color: white;
-}
-
 
 
 
