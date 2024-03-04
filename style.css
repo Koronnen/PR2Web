@@ -185,7 +185,10 @@ a {
 .pick_strand {
     display: inline-block;
     position: absolute;
-    bottom: 30pc;
+    bottom: 35pc;
+	background-color: #323e8f;
+	border-radius: 20px;
+	padding: 5px 15px;
 }
 
 .theStrands {
@@ -198,7 +201,7 @@ a {
     width: 24pc;
     padding: 17px;
     background-color: rgb(52, 63, 141);
-    height: 30pc;
+    height: 35pc;
     border-radius: 17px;
     cursor: pointer;
 }
@@ -219,19 +222,33 @@ a {
     opacity: 0.7;
     
 }   
+.strandtitle {
+	color: white;
+}
 .strand_description {
     color: white;
     line-height: 25px;
     margin-top: 14px;
+	font-size: 25px;
 }
 .strand_description p  {
-    margin-top: 7px;
+    margin-top: 20px;
 	text-align: justify;
 	text-justify: inter-word;
 	text-indent: 50px;
+	font-size: 18px;
 }
 
-
+.AnE{
+	padding: 10px 10px;
+	background-color: #ffd516;
+	margin: 0px 725px;
+	border-radius: 15px;
+}
+.AnEtitle {
+	text-align: center;
+	color: #323e8f;
+}
 .news_container {
     display: flex;
     position: relative;
@@ -251,7 +268,7 @@ a {
 .slideshow-container {
     flex: 1;
     position: relative;
-    top: 2px;
+    top: 15px;
 }
 
 .slide {
@@ -319,13 +336,15 @@ a {
     font-weight:700;
 	font-size: 30px;
 	color: #2e3094;
+	padding: 5px;
+	border-radius: 20px;
 }
 .linksNews a{
 	text-decoration: none;
-	color: rgb(52, 63, 141);;
+	color: rgb(52, 63, 141);
 }
-.linksNews a:hover {
-    color: rgb(52, 63, 141);
+.linksNews li:hover {
+    background-color: rgb(219, 182, 18);
 }
 
 footer {
@@ -437,12 +456,12 @@ footer {
 
 .visioncontent {
 	color: #323e8f;
-	font-size:20px;
 	line-height: 2;
+	font-size: 18px;
 }
 .visioncontentheader{
 	color:#323e8f;
-	font-size:35px;
+	font-size: 26px;;
 }
 .missioncontentheader {
 	color: white;
@@ -463,6 +482,14 @@ footer {
 .mission_description {
 	color: white;
 	font-size: 18px;
+}
+.mnvtable{
+	width: 100%;
+	padding: 5px;
+	border-spacing: 20px;
+}
+.table_cell {
+	width: 200px;
 }
 .navbar {
     overflow: hidden;
@@ -492,7 +519,8 @@ footer {
 }
 
 .strand_drpdwn_button:hover{
-    background-color:#323e8f;
+    background-color:#ffd516;
+	color: #323e8f;
 }
 
 .strand_drpdwn_content{
@@ -500,8 +528,7 @@ footer {
     position: absolute;
     display: none;
     z-index: 2;
-    min-width: 107px;
-    font-family: Arial, Helvetica, sans-serif;
+    min-width: 104.5px;
     color: black;
 }
 
@@ -511,15 +538,21 @@ footer {
     display: block;
     text-align: left;
     text-decoration: none;
-    color: black;
+    color: #323e8f;
+	font-family: "Rubik", sans-serif;
+	font-weight: bold;
 }
 
 .strand_drpdwn:hover .strand_drpdwn_content {
     display: block;
+	background-color: #ffd516;
 }
 
 .strand_drpdwn_content a:hover{
-    background-color: #8a8a8a;
+    background-color: rgb(219, 182, 18);
+}
+.strand_drpdwn_content a:active{
+    background-color: rgb(219, 182, 18);
 }
 .navbutton{
 	padding: 25px 22px;
